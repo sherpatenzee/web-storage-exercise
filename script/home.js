@@ -12,7 +12,7 @@ function enterBtnOnClick() {
  
   let name = document.getElementById("nameField").value
 
-  localStorage.setItem("lastProduct", name);
+  localStorage.setItem("name", name);
 
   let role = document.querySelector('input[name="radio"]:checked').value;
   localStorage.setItem("role", role);

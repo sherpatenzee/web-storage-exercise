@@ -4,15 +4,15 @@
 window.onload = function () {
 
   let display = document.getElementById("display")
-  let lastProductViewed;
+  let name;
   let role;
 
-   lastProductViewed = localStorage.getItem("lastProduct");
+   name = localStorage.getItem("name");
    role = localStorage.getItem("role")
 
 
 
-   display.innerHTML = "Welcome" + " " + role + " " + lastProductViewed ;
+   display.innerHTML = "Welcome" + " " + role + " " + name ;
 }
 
 
